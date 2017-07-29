@@ -1,0 +1,37 @@
+<html>
+<body>
+<form name = "form"  method = "POST" >
+{% csrf_token %}
+<div style = "max-width:420px;">
+Username
+<input type = "text" style = "margin-left:20%;" placeholder = "Username" name = "uname" />
+</div>
+<br>
+<div style = "max-width:470px;">
+Email
+<input type = "email" style = "margin-left:20%;" placeholder = "Email address" name = "umail" />
+</div>
+<br>
+<div style = "max-width:470px;">
+Contact No.
+<input type = "number" style = "margin-left:20%;" placeholder = "Phone Number" name = "ucon" />
+</div>
+<br>
+<div style = "max-width:470px;">
+Password
+<input type = "text" style = "margin-left:20%;" placeholder = "Password" name = "upwd" />
+</div>
+<br>
+<div style = "max-width:550px;">
+Password(again)
+<input type = "password" style = "margin-left:20%;" placeholder = "Password" name = "uvpwd" />
+</div>
+<div style = "max-width:470px;">
+<button style = "border:0px; color:white; background-color:#4285F4; margin-top:8%; height:45px; width:40%;" type = "submit" value = "signup" >
+<strong>Create User</strong>
+</button>
+</div>
+
+</form>
+</body>
+</html>
